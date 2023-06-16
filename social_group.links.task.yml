@@ -10,11 +10,23 @@ social_group.stream:
   title: Stream
   weight: 20
 
-social_group.about:
-  route_name: view.group_information.page_group_about
+social_group.menus:
+  route_name: view.group_menus.page_group_menus
   base_route: entity.group.canonical
-  title: About
-  weight: 30
+  title: Menus
+  weight: 25
+
+#social_group.meals:
+#  route_name: view.group_products.page_group_meals
+#  base_route: entity.group.canonical
+#  title: Meals
+#  weight: 30
+  
+#social_group.products:
+#  route_name: view.group_products.page_group_products
+#  base_route: entity.group.canonical
+#  title: Products
+#  weight: 35
 
 social_group.events:
   route_name: view.group_events.page_group_events
@@ -28,8 +40,26 @@ social_group.topics:
   title: Topics
   weight: 50
 
+social_group.members-pending:
+  route_name: view.group_pending_members.page_1
+  base_route: entity.group.canonical
+  title: Membership requests
+  weight: 58
+
+social_group.invitations:
+  route_name: view.social_group_invitations.page_1
+  base_route: entity.group.canonical
+  title: Invitations
+  weight: 59
+
 social_group.members:
   route_name: view.group_members.page_group_members
   base_route: entity.group.canonical
   title: Members
   weight: 60
+
+social_group.about:
+  route_name: view.group_information.page_group_about
+  base_route: entity.group.canonical
+  title: About
+  weight: 80
